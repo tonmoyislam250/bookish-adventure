@@ -1,4 +1,4 @@
-FROM golang:1.19.1-alpine3.16 AS builder
+FROM golang:alpine3.15 AS builder
 ARG CPU_ARCH=amd64
 ENV HOST_CPU_ARCH=$CPU_ARCH
 
